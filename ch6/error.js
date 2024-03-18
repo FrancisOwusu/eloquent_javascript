@@ -40,4 +40,4 @@ get content(){
     if(this.locked) throw new Error("Locked!");
     return this.#content;
 }}
-}
+
